@@ -1,0 +1,38 @@
+/*    
+//    Karl Goeltner
+//    7/19/20 
+//    style.css
+*/
+
+h2 {
+  font: bold 30px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+.left-panel {
+  float: left;
+}
+
+.right-panel {
+  float: right;
+}
+
+li {
+  margin: 5px;
+  border: 2px solid black;
+  background-color: lightyellow;
+  padding: 5px 20px;
+  font: 15px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+#col-1 {
+  flex: 1;
+}
+
+#col-2 {
+  flex: 1;
+  padding: 0px 100px 100px 100px;
+}
