@@ -33,7 +33,7 @@ export default {
   },
 
   mounted() {
-    fetch('https://aggiefeed.ucdavis.edu/api/v1/activity/public?s=0?l=25')
+    fetch('https://aggiefeed.ucdavis.edu/api/v1/activity/public?s=0&l=25')
       .then(response => response.json())
       .then(json => {
         this.events = json;
